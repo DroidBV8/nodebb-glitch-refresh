@@ -1,9 +1,5 @@
 // Glitch effect when refreshing the nodebb home page
 
-// ------------------------------------------------------------------
-/* Glitch effect when refreshing the nodebb home page (TEST) */
-// ------------------------------------------------------------------
-
 $(document).ready(function() {
     var glitchInterval;
     var loaderId = "DAloader";
