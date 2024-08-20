@@ -29,8 +29,8 @@ $(document).ready(function() {
 
             // Function to get a random color
             function getRandomColor() {
-                var colors = ["#fdc060", "#f9a34c", "#f48478", "#f2789b", "#e578af", "#cb70ad", "#b36aab", "#7c62ab", "#5f69b1", "#4c76bb", "#3883c5", "#1c8ece", "#00a2db"];
-                return colors[Math.floor(Math.random() * colors.length)];
+               /* colors version */ // var colors = ["#fdc060", "#f9a34c", "#f48478", "#f2789b", "#e578af", "#cb70ad", "#b36aab", "#7c62ab", "#5f69b1", "#4c76bb", "#3883c5", "#1c8ece", "#00a2db"];
+               /* Dark Version */   var colors = ["#444444ff", "#545454ff", "#636363ff", "#737373ff", "#828282ff", "#929292ff", "#A2A2A2ff", "#B1B1B1ff", "#C1C1C1ff", "#D0D0D0ff", "#E0E0E0ff", "#EFEFEFff", "#FFFFFFff"];return colors[Math.floor(Math.random() * colors.length)];
             }
 
             // Function to animate the glitch effect
@@ -56,6 +56,6 @@ $(document).ready(function() {
                 });
                 setTimeout(function() {
                     $loader.remove();
-                }, 750); // Adjust the time as needed
+                }, 700); // Adjust the time as needed
             });
         });
